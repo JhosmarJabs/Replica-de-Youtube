@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3a3939;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo, .usuario {
+    display: flex;
+    align-items: center;
+}
+
+.logo p, .usuario i {
+    margin: 0 10px;
+}
+
+.logo p {
+    color: #fff;
+}
+
+.bx {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.bxl-youtube {
+    color: red;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    background-color: #2c2c2c;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.search-bar input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar input[type="text"]::placeholder {
+    color: #ffffff;
+}
+
+.bx-search {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 4.4px 10px;
+    background-color: #0f0f0f;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.bx-microphone {
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #666666;
+}
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 170px;
+    height: calc(100% - 60px);
+    background-color: #333;
+    color: #fff;
+    transition: width 0.7s ease; 
+    overflow: hidden; 
+}
+
+.sidebar-closed {
+    width: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: start;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    margin-left: 250px; 
+    padding-top: 60px; 
+}
+
+.line {
+    width: 90%; 
+    height: 2px;
+    background-color: #ffffff; 
+    margin: 10px auto; 
+}
+
+.bxs-home {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bx-play-circle {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bx-layer {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bxs-music {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bxs-user-account {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bx-history {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bxs-playlist {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bx-time-five {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bx-like {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.bxs-download {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.Categorias {
+    display: flex;
+    justify-content: space-around;
+    background-color: 333;
+}
+
+.Categorias button {
+    background-color: #000000;
+    color: #fff;
+    border: 5px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.video {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    width: 380px;
+    height: 200px;
+    border-radius: 5px;
+    background: #333;
+    margin: 20px 5px 0 5px;
+    color: #ffffff;
+    position: relative; 
+}
+
+.video h3, p{
+    display: flex;
+    align-items: flex-end;
+}
+
+.video-icon {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+
+.content h2 {
+    color: #ffffff;
+}
+
+.video-info {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
